@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+		<record id="product_normal_form_view_barcode_preview_image_inherit" model="ir.ui.view">
+			<field name="name">product.product.form.barcode_preview_image.inherit</field>
+			<field name="model">product.product</field>
+			<field name="inherit_id" ref="product.product_normal_form_view"/>
+			<field name="priority" eval="8"/>
+			<field name="arch" type="xml">
+                <xpath expr="//field[@name='barcode']" position="attributes">
+                    <attribute name="widget">barcodePreview</attribute>
+                </xpath>
+            </field>
+		</record>
+
+	</data>
+</odoo>

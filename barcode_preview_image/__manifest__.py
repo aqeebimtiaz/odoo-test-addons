@@ -28,7 +28,8 @@ Add a Image Preview option for Barcode fields on the following views:
         # 'security/ir.model.access.csv',
         # 'views/views.xml',
         # 'views/templates.xml',
-        'views/product_view.xml',
+        'views/product_template_views.xml',
+        'views/product_views.xml',
     ],
     # only loaded in demonstration mode
     # 'demo': [
