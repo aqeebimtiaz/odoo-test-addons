@@ -18,6 +18,7 @@ Add a Image Preview option for Barcode fields on the following views:
     # for the full list
     'category': 'Uncategorized',
     'version': '18.0.1.0.0',
+    'application': True,
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'product'],
